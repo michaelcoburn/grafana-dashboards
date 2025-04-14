@@ -1770,7 +1770,7 @@
         },
         "tooltip": {
           "mode": "multi",
-          "sort": "none"
+          "sort": "desc"
         }
       },
       "pluginVersion": "9.2.5",
@@ -4495,7 +4495,7 @@
         "definition": "label_values(proxysql_connection_pool_status{node_name=\"$proxysql\"}, hostgroup)",
         "hide": 0,
         "includeAll": false,
-        "label": "Node Namegroup",
+        "label": "Hostgroup",
         "multi": true,
         "multiFormat": "regex values",
         "name": "hostgroup",
